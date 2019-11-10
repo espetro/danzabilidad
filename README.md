@@ -1,91 +1,30 @@
-## ¿Que es la bailabilidad?
+# ?Que es la bailabilidad?
+[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Sigueme%20en%20@flamenquino)](https://twitter.com/flamenquino)
 
-_Un proyecto de [Quino Terrasa][0]_.
+Este micro-proyecto surge en 2018 cuando, tras escuchar ya repetidas veces [*Ocho Lineas*][1], donde tras unos versos, Sho-Hai suelta
 
+*M?sica idonea para beber y :point_right::ok_hand:, ?bailar con esto? ?Te va a costar!*
 
-
-[TOC]
-
-
-
-### Motivación
-
-*Música idonea para beber y :point_right::ok_hand:  , ¿bailar con esto? ¡Te va a costar!*
-
-[TODO]
+A raiz de ahi, me vino a la cabeza la idea de demostrarlo. ?Y si era verdad?
 
 
+### De idea a aplicaci?n
+
+Esta secci?n tengo que detallarla a?n aunque, en general, segu? estos pasos:
+  1. Buscar una aplicaci?n o algoritmo que devolviese estad?sticas sobre una canci?n. **Respuesta: Spotify.**
+  2. Buscar una base de datos con la que comprar la canci?n. ?Qu? canciones son realmente "bailables"? **Respuesta: Hits de Los40.**
+  3. Crear una rutina, usando R, para crear un stream desde el registro de Los40 a Spotify, y terminar obtieniendo datos.
+  4. Mostrar estos datos, usando Shiny, mediante *forms* y un simple *scatterplot*.
+  
+
+Se muestra ***tempo~danceability*** en el *scatterplot* para mostrar que, normalmente, las canciones bailables en este tipo de rankings, que pertenecen en su mayoría a canciones de discoteca, tienen un tempo medio de 120-130 *bpm*. Además, los resultados visibles en el *scatterplot* son **interactivos**, de forma que si haces *click* en un punto, éste te redirige a la **página de Spotify del single**.
 
 
-
-*Puedes probar una versión light de la app en Heroku*
-
-[![heroku badge](https://img.shields.io/badge/Prueba%20la%20app!--%23430098.svg?longCache=flat&style=flat&logo=heroku)](https://danzabilidad.herokuapp.com/)
+> Resultado: ejecuta `app.R`. **También puedes ver una [demo online aquí][2]**.
 
 
+_Un proyecto de [Quim Terrasa][0]._
 
-¡Sígueme en Twitter!
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Sigueme%20en%20@espettro)](https://twitter.com/espettro)
-
-
-
----
-
-### De idea a aplicación
-
-##### Cómo podemos analizar una canción
-
-[TODO]
-
-
-
-##### Qué es la bailabilidad o *danzabilidad*?
-
-[TODO]
-
-
-
-##### Cuantificando la bailabilidad: el caso de Spotify
-
-[TODO]
-
-
-
-##### Fuentes de datos
-
-[TODO]
-
-
-
-##### Datos tangibles con R y Shiny
-
-[TODO]
-
-
-
-### Conclusión
-
-[TODO]
-
-
-
----
-
-### ¿Que puedo hacer con ésto?
-
-##### Replicando y extendiendo este análisis
-
-[TODO]
-
-
-
-##### Recursos y bibliografia
-
-[TODO]
-
-
-
-##### Estructura del proyecto
-
-[TODO]
+[0]: https://espetro.github.io
+[1]: https://youtu.be/0IbK43e3vXs?t=75
+[2]: https://espetro.shinyapps.io/danzabilidad/
