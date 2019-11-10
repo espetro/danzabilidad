@@ -1,18 +1,18 @@
-# ?Que es la bailabilidad?
+# ¿Que es la bailabilidad?
 [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Sigueme%20en%20@flamenquino)](https://twitter.com/flamenquino)
 
-Este micro-proyecto surge en 2018 cuando, tras escuchar ya repetidas veces [*Ocho Lineas*][1], donde tras unos versos, Sho-Hai suelta
+Este micro-proyecto surge en 2018 cuando, tras escuchar ya repetidas veces [*Ocho Lineas*][1], donde tras unos versos, Sho-Hai suelta:
 
-*M?sica idonea para beber y :point_right::ok_hand:, ?bailar con esto? ?Te va a costar!*
+*Musica idonea para beber y :point_right::ok_hand:, ¿bailar con esto? ¡Te va a costar!*
 
-A raiz de ahi, me vino a la cabeza la idea de demostrarlo. ?Y si era verdad?
+A raiz de ahi, me vino a la cabeza la idea de demostrarlo. ¿Y si era verdad?
 
 
-### De idea a aplicaci?n
+### De idea a aplicacion
 
-Esta secci?n tengo que detallarla a?n aunque, en general, segu? estos pasos:
-  1. Buscar una aplicaci?n o algoritmo que devolviese estad?sticas sobre una canci?n. **Respuesta: Spotify.**
-  2. Buscar una base de datos con la que comprar la canci?n. ?Qu? canciones son realmente "bailables"? **Respuesta: Hits de Los40.**
+Esta seccion tengo que detallarla aun aunque, en general, hice estos pasos:
+  1. Buscar una aplicacion o algoritmo que devolviese estadisticas sobre una cancion. **Respuesta: Spotify.**
+  2. Buscar una base de datos con la que comprar la cancion. ¿Que canciones son realmente "bailables"? **Respuesta: Hits de Los40.**
   3. Crear una rutina, usando R, para crear un stream desde el registro de Los40 a Spotify, y terminar obtieniendo datos.
   4. Mostrar estos datos, usando Shiny, mediante *forms* y un simple *scatterplot*.
   
